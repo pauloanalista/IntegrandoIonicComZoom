@@ -1,5 +1,5 @@
-# IntegrandoIonicComZoom
-Integrando Ionic com reuniões realizadas no Zoom
+# Integrando Ionic 5 com o Zoom
+Integrando Ionic com Zoom, realize reuniões, vídeos conferências pelo Ionic
 
 [VEJA COMO IMPLEMENTAR NO YOUTUBE](https://youtu.be/GFRTOgEYqc4)
 
