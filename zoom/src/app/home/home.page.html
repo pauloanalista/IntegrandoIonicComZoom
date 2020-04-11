@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">Usuario</ion-label>
+    <ion-input [(ngModel)]="zoom.usuario"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Senha</ion-label>
+    <ion-input [(ngModel)]="zoom.senha"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">UsuarioSala</ion-label>
+    <ion-input [(ngModel)]="zoom.usuarioSala"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">SenhaSala</ion-label>
+    <ion-input [(ngModel)]="zoom.senhaSala"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">NickDoUsuario</ion-label>
+    <ion-input [(ngModel)]="zoom.nickUsuarioSala"></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" (click)="inicializarZoom()">Inicializar Zoom</ion-button>
+  <ion-button expand="block" (click)="logarNoZoom()">Logar no Zoom</ion-button>
+  <ion-button expand="block" (click)="entrarNaSalaDoZoom()">Entrar na sala</ion-button>
+  <ion-button expand="block" (click)="sairDaSalaDoZoom()">Sair da sala</ion-button>
+
+
+</ion-content>
